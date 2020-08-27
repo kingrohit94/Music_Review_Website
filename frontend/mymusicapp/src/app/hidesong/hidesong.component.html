@@ -1,0 +1,40 @@
+<!-- Admin hide song html page-->
+<h1 class='head'>Hide song</h1>
+
+ 
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+    <table id="userlogin">
+        <tr>
+            <th>
+                Song ID (to select song to hide)
+            </th>
+            <th>
+                Hidden status ('true' for hide & 'false' for show)
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="songId" name="songId" required ngModel>
+            </td>
+            <td>
+                <input type="text" id="hidden" name="hidden" required ngModel>
+            </td>
+            <td>
+                <button type="submit" id="sub">Submit</button>
+            </td>
+            
+        </tr>
+    </table>
+</form>
+<!-- view all song IDs html page-->
+<h1>Songs List</h1>
+    
+<ul *ngIf="brews">   
+
+    <li *ngFor="let brew of brews">
+      <div *ngIf="brew.hidden == 'false'">
+      <p class="title">Title: {{ brew.title }}</p>
+      <p class="title">song id: {{ brew._id }}</p>
+    </div>
+    </li>   
+</ul>

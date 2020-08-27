@@ -1,0 +1,54 @@
+<!-- updated playlist html page-->
+<h1 class='head'>Update playlist</h1>
+
+ 
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+    <table id="userlogin">
+        <tr>
+            <th>
+                playlist ID 
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Desc
+            </th>
+            <th>
+                 status 
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="playlistId" name="playlistId" required ngModel>
+            </td>
+            <td>
+                <input type="text" id="name" name="name" required ngModel>
+            </td>
+            <td>
+                <input type="text" id="desc" name="desc" required ngModel>
+            </td>
+            <td>
+                <input type="text" id="status" name="status" required ngModel>
+            </td>
+            <td>
+                <button type="submit" id="sub">Submit</button>
+            </td>
+            
+        </tr>
+    </table>
+</form>
+
+<h1>PLaylist Library</h1>
+    
+<ul *ngIf="plays">   
+
+    <li *ngFor="let play of plays">
+        <div *ngIf="play.status == 'public'"> 
+      <p class="playlistId">ID: {{ play._id }}</p>
+      <p class="name">name: {{ play.name }}</p>
+      <p class="desc">description: {{ play.desc }}</p>
+      <p class="status">status: {{ play.status }}</p>
+    </div>
+    </li>   
+</ul>

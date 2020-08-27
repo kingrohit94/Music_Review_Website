@@ -1,0 +1,11 @@
+<!-- Review library html page-->
+<h1>Reviews Library</h1>
+
+<ul *ngIf="brew">
+  <li *ngFor="let brew of brew">
+    <p class="user">Reviewed by: {{ brew.user.name }}</p>
+    <p class="song">Song: {{ brew.song.title }}</p>
+    <p class="reviewtext">Review: {{ brew.reviewtext }}</p>
+    <p class="rating">Rating: {{ brew.rating }}</p>
+  </li>
+</ul>

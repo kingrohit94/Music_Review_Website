@@ -1,0 +1,14 @@
+<!-- playlist library html page-->
+<h1>PLaylist Library</h1>
+    
+<ul *ngIf="plays">   
+
+    <li *ngFor="let play of plays">
+        <div *ngIf="play.status == 'public'"> 
+      <p class="playlistId">ID: {{ play._id }}</p>
+      <p class="name">name: {{ play.name }}</p>
+      <p class="desc">description: {{ play.desc }}</p>
+      <p class="status">status: {{ play.status }}</p>
+    </div>
+    </li>   
+</ul>

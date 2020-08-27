@@ -1,0 +1,44 @@
+span {
+    font-weight: bold;
+    background: lightgray;
+    padding: .3em .8em;
+    cursor: pointer;
+}
+
+.play-container {
+    padding: 3em;
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+
+    input {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+}
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: lightsteelblue;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

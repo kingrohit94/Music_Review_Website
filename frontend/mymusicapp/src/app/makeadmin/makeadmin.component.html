@@ -1,0 +1,38 @@
+<!-- Site Manager Privilege adding html page-->
+<h1 class='head'>Make Site Manager</h1>
+
+ 
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+    <table id="userlogin">
+        <tr>
+            <th>
+                User ID (to select user to make Site Manager)
+            </th>
+            <th>
+                Toggle status ('true' for Admin & 'false' for Normal user)
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="userId" name="userId" required ngModel>
+            </td>
+            <td>
+                <input type="text" id="isAdmin" name="isAdmin" required ngModel>
+            </td>
+            <td>
+                <button type="submit" id="sub">Submit</button>
+            </td>
+            
+        </tr>
+    </table>
+</form>
+<!-- list of all signed up users-->
+<h1>List of Users</h1>
+    
+<ul *ngIf="ads">   
+
+    <li *ngFor="let ad of ads">
+      <p class="title">ID: {{ ad._id }}</p>
+      <p class="title">username: {{ ad.name }}</p>    
+    </li>   
+</ul>

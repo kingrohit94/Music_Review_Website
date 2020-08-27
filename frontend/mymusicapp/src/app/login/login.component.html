@@ -1,0 +1,38 @@
+<!-- add new user html page-->
+<h1 class='head'>Add New User</h1>
+ 
+
+ 
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+    <table id="user1">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+ 		Password
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="name" name="name" required ngModel>
+            </td>
+            
+            <td>
+                <input type="text" id="email" name="email" required ngModel>
+            </td>
+ 		<td>
+                <input type="text" id="password" name="password" required ngModel>
+            </td>
+            <td>
+                <button type="submit" id="sub">Submit</button>
+            </td>
+          
+            
+ 
+        </tr>
+    </table>
+</form>

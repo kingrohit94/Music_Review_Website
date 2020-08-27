@@ -1,0 +1,39 @@
+<!-- See all songs library html page-->
+<h1>Songs Library</h1>
+    
+<ul *ngIf="brews">   
+
+    <li *ngFor="let brew of brews">
+      <div *ngIf="brew.hidden == 'false'">
+      <p class="title">Title: {{ brew.title }}</p>
+      <p class="title">Number of reviews: {{ brew.rev }}</p>
+      <p><a href="javascript:void(0)" id="{{brew._id}}" (click)="songdetfun($event)">View Details</a></p>
+      
+    </div>
+    </li>   
+</ul>
+
+<ul *ngIf="details"> 
+    <li *ngFor='let detail of details'>
+        <p class="details">DETAILS OF SELECTED SONG</p>
+      <p class="artist">Artist: {{ detail.artist }}</p>
+      <p class="album">Album: {{ detail.album }}</p>
+      <p class="Genre">Genre: {{ detail.genre }}</p>
+      <td><a href="javascript:void(0)" id="{{detail._id}}" (click)="songreview($event)">View Review</a></td>
+    </li>   
+</ul>
+
+
+<ul *ngIf="revs">
+        <li *ngFor="let rev of revs">  
+          <p class="user">Reviewed by: {{ rev.user.name }}</p>
+          <p class="song">Song: {{ rev.song.title }}</p>
+          <p class="reviewtext">Review: {{ rev.reviewtext }}</p>
+          <p class="rating">Rating: {{ rev.rating }}</p>
+        </li>
+      </ul>
+   
+
+  
+
+

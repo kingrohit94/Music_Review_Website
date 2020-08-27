@@ -1,0 +1,525 @@
+commit 8608601f21cbf250a2de1ea45413e6688cd9affc
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 23:01:51 2019 -0500
+
+    node modules + angular files
+    
+    node modules + angular files created.
+
+commit a49f8c933053e3439eaffdc90636e0996138f978
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:37:00 2019 -0500
+
+    logfile.log added
+    
+    exceptions and error log file added
+
+commit 35a1c6a0f0136f47648082715bb6b79462ab90fb
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:36:38 2019 -0500
+
+    main server index.js added
+    
+    server file index.js added
+
+commit 0fd08d0b2bdd6ab7cc981df7854bf3549a6e5010
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:36:12 2019 -0500
+
+    search.service added
+    
+    search service code added.
+
+commit 4a39966fbef6c99e984ebd87cf385d1c28014164
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:34:21 2019 -0500
+
+    exceptions log generated
+    
+    exceptions log added.
+
+commit eef476305bb899cc3488e11f8e16a1033bc2b430
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:33:55 2019 -0500
+
+    validation.js added
+    
+    config validation file added
+
+commit 42db05e69aef5dc303742ca1da56c520198da704
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:33:20 2019 -0500
+
+    main routes handler file added
+    
+    routes handler file added.
+
+commit 152510c2f6dc4beeaa45440c327f07bd8e1e2cca
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:32:55 2019 -0500
+
+    logging file added
+    
+    handling exceptions logger added
+
+commit 05a90e4bbc3aef34978428ccb925395a3671bc49
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:32:35 2019 -0500
+
+    db connect file added
+    
+    config file for db added.
+
+commit e0139bef0925526728b9b8a1b95f054a22897e6c
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:32:12 2019 -0500
+
+    config.js added
+    
+    config file added
+
+commit 0e9885a359f1a469f1dc06623498916e2d89c87c
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:31:42 2019 -0500
+
+    users.js updated
+    
+    REST api func for users updated
+
+commit 4e6993ca14c9e6c180cc556467f17e0835dcacf7
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:31:26 2019 -0500
+
+    songs.js updated
+    
+    REST func for songs updated.
+
+commit 71f17ef83754786510c5161c1f8e91b9b1f44e83
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:30:53 2019 -0500
+
+    reviews.js updated
+    
+    REST func for reviews updated
+
+commit da3c41e8ad7479d926471857eab65bcd978ece4f
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:30:34 2019 -0500
+
+    playlists.js added
+    
+    REST func for playlist added.
+
+commit 9b7dbc797ad95a42e505b3258f9913dd5dd40ece
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:30:07 2019 -0500
+
+    auth.js added
+    
+    authentication handler added.
+
+commit 3b9e69bd4d3c5884edeefac6c51ab64d56fb1e42
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:29:26 2019 -0500
+
+    package.json updated
+    
+    package.json and package-lock.json added and updated.
+
+commit 1256ce369ecfe1fc0dba41c681bc99efa4de9d88
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:27:57 2019 -0500
+
+    html for user dashboard
+    
+    html for user dashboard added.
+
+commit 6ced11f09c39efeed682d19a38eb09805be2d00c
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:27:31 2019 -0500
+
+    playlist component added
+    
+    view play component
+
+commit 3934a6c3576a1b7ad18a7194183ea9f781ab1df0
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:26:42 2019 -0500
+
+    make admin component
+    
+    make admin component added. admin function.
+
+commit 30561f243f746ee9be6d0f0daf5b549d37c5ea21
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:26:09 2019 -0500
+
+    lib component updated
+    
+    song lib comp
+
+commit be8dbe971ac69d12f3d59c7027ddb01743a5c0d1
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:25:49 2019 -0500
+
+    main http.service file updated
+    
+    all http functions here in this file.
+
+commit 2ef5b4e33807c21b02d67d1ea6fc4f9d9d6180b2
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:25:22 2019 -0500
+
+    home component updated
+    
+    home comp updated
+
+commit 4c7e9443be7bc613082288e5f3ef0ce6bfc2ed6f
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:25:00 2019 -0500
+
+    hidesong component updated
+    
+    admin hidesong comp updated
+
+commit c2def6f261edc137062157533c34fbd4f00c80ac
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:24:28 2019 -0500
+
+    modify playlist component updated
+    
+    modify playlist inside deletesongs comp updated.
+
+commit cfeb09712711934d0010ef64b17b875411b2b465
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:23:41 2019 -0500
+
+    app module ts updated
+    
+    extra imports removed
+
+commit 06f07b74b72b90892e853afaaaf2acfc364037d0
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:23:17 2019 -0500
+
+    app component updated
+    
+    unnecessary imports removed
+
+commit 0f4bdce6e8c44b6d4894e09354e3f244617b8097
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:22:39 2019 -0500
+
+    app routing module updated
+    
+    app routing mod ts updated
+
+commit d3d05a8b5910d0a75171f8c182ee0dd3f43858d2
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:22:11 2019 -0500
+
+    admin html modified
+    
+    admin component modified
+
+commit 8856107e9b453692577d6cf9296d764bd06260d9
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:21:49 2019 -0500
+
+    addreviews component added
+    
+    add reviews added.
+
+commit a8e8b759c6df3adc855468b7a1a27750c6f205b7
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 22:20:38 2019 -0500
+
+    created gitignore
+    
+    .gitignore created.
+
+commit 5d74bfdeef63dbd4470324ec7b3e77791ff262c0
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:08:26 2019 -0500
+
+    user schema
+    
+    user schema created and updated
+
+commit 87283f1744aa3da755cecd172fe141b933728725
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:08:10 2019 -0500
+
+    song schema
+    
+    song schema created and updated
+
+commit 27294197cc3e6d387622266b9b4f79c3a28ca517
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:07:53 2019 -0500
+
+    review schema
+    
+    review schema created and updated
+
+commit 6248cf36c6bc74c8cc275c49ea1b1dd5e275d823
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:07:38 2019 -0500
+
+    created playlist schema
+    
+    playlist schema created and updated
+
+commit 4b703c6652db1e8522fc1954655fff551d677f33
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:06:47 2019 -0500
+
+    validateObjectIds function created
+    
+    validateObjectIds middleware function  created
+
+commit 1ea6e7274c558f394284c7c0bfb94635107febee
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:06:12 2019 -0500
+
+    validate middlware created
+    
+    validate function middleware generated.
+
+commit 1b70e60daaa459e8e677e089a3f9279b7a90be01
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:05:51 2019 -0500
+
+    error handler middleware func
+    
+    error handling function created
+
+commit 8fef84392fc49b89e431e9ad557ff20efc96c65d
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:05:27 2019 -0500
+
+    auth middlware created
+    
+    auth function created for auth user.
+
+commit 37c744a122736829979e5cc5f2ff9a25edf2eb63
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:05:05 2019 -0500
+
+    middleware async func
+    
+    async func created
+
+commit 8375185f2ba25248a3cf1f5d69adfffe4dc75084
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:02:00 2019 -0500
+
+    middlware admin function
+    
+    created and updated.
+
+commit 3496cb3d8f8f9852a8645229adf4203e8d66f1e1
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:00:50 2019 -0500
+
+    admin component
+    
+    admin dashboard component updated.
+
+commit b1e280f5e7631863092d683fcc52fcf3fbe96ad6
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 17:00:11 2019 -0500
+
+    addsong component
+    
+    add new song and updated component. 4 files
+
+commit 35ae015d767341913a04cc7ab477f01b4f338575
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:59:50 2019 -0500
+
+    addreview component
+    
+    addreview generated and updated.
+
+commit f01deae51aad45a214350b2b357e1a34d3d43ee4
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:58:55 2019 -0500
+
+    assets folder
+    
+    logo images saved in assets
+
+commit ff2ae6afd21140c5d16e79c9ea5546c1fcba4604
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:57:34 2019 -0500
+
+    user page component
+    
+    auth user dashboard created and updated.
+
+commit 3a7402379875498a5a6dfec9fe34f34e7f6b9140
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:56:57 2019 -0500
+
+    userlogin component
+    
+    userlogin component created and updated.
+
+commit 233279a4e5703d81dbc75c5468216d3ccb8b3519
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:56:12 2019 -0500
+
+    search component added.
+    
+    search added and modified 2 files.
+
+commit b704b7022817214b26f168ae02213f34d5a6ab88
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:55:12 2019 -0500
+
+    review lib component
+    
+    review lib component created and updated.
+
+commit c16108731feb848c7f3ee8753e68bc3a6dba5527
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:54:30 2019 -0500
+
+    login component
+    
+    new user login component created.
+
+commit 935da814e8fa7c4df4429599ecbee7ce4ba34b6e
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:53:55 2019 -0500
+
+    libuser component
+    
+    lib user component created 4 files.
+
+commit 50d57970d072ba5cc246a0c5db0a4050682b0a01
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:53:10 2019 -0500
+
+    lib component created
+    
+    4 files created and updated.
+
+commit 9840f7fda538caea328e8c85acaf33864c1a5c8e
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:52:40 2019 -0500
+
+    http service component
+    
+    http service created and updated. 2 files.
+
+commit 0c6a856e7e82c56bd8b2af78661a92eafc40430b
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:52:11 2019 -0500
+
+    home component
+    
+    homepage created and updated
+
+commit cce17065032e7a5407afac4b8311d1780d517115
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:51:48 2019 -0500
+
+    hidesong component
+    
+    4 files created and updated.
+
+commit fd18959ded9e85c3bb27c3bebe8f81081184dad7
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:51:07 2019 -0500
+
+    filter component created
+    
+    2 files created and updated.
+
+commit dae77672fb73a2afa64a15dc7516997c15f7e2a0
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:50:32 2019 -0500
+
+    details component created
+    
+    4 files created.
+
+commit a9129b6e55000c6c4ffee512b0331351e08c2c9b
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:49:57 2019 -0500
+
+    delete song component
+    
+    delete songs component 4 files
+
+commit c5ae5b02dfd9a2e25cf585b49373afbd66c8894e
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:49:23 2019 -0500
+
+    deactuser component created
+    
+    4 files created
+
+commit 81f4a4033ddd4cd4022c2842bf600493536f09da
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:48:47 2019 -0500
+
+    auth service files
+    
+    2 files created.
+
+commit 9ff7a1e9f8db8be2ce2ff7a012c48c7b50f65b0f
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 16:48:12 2019 -0500
+
+    app.component files
+    
+    4 files updated.
+
+commit 87c1920f673a82559d7a11798f6484da1ee0012e
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 13:56:24 2019 -0500
+
+    app.module.ts file
+    
+    updated app.module.ts file
+
+commit 1f185be936a0e3c75d036ab25d83c798d3323535
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 13:55:34 2019 -0500
+
+    angular gitignore file
+    
+    .gitignore file angular
+
+commit f99dceef425ea43882ad31962d4a2498e4f163c1
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 13:54:50 2019 -0500
+
+    vscode settings file
+    
+    vscode settings file
+
+commit c2bd33662112b69652499f592848ff20f20a598d
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 13:54:24 2019 -0500
+
+    config file
+    
+    default values
+
+commit d273d1c94af9cd48b5e33522c52f41259512c41e
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Mon Dec 16 13:54:05 2019 -0500
+
+    config file
+    
+    custom env variables config file
+
+commit 518a0e115e6351c8417879b2b87fe267ef28462f
+Author: Rohitashwa Ray Chowdhury <55262064+rraychow@users.noreply.github.com>
+Date:   Wed Nov 27 15:38:35 2019 -0500
+
+    Initial commit

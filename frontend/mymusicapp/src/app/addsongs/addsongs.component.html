@@ -1,0 +1,40 @@
+<!-- add songs html page-->
+<h1 class='head'>Add New Song</h1>
+ 
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+    <table id="user1">
+        <tr>
+            <th>
+                Song title
+            </th>
+            <th>
+                Genre
+            </th>
+            <th>
+ 		Artist
+            </th>
+            <th>
+                Album
+                   </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="title" name="title" required ngModel>
+            </td>
+            
+            <td>
+                <input type="text" id="genre" name="genre" required ngModel>
+            </td>
+ 		<td>
+                <input type="text" id="artist" name="artist" required ngModel>
+            </td>
+            <td>
+                <input type="text" id="album" name="album" required ngModel>
+            </td>
+            <td>
+                <button type="submit" id="sub">Submit</button>
+            </td>
+ 
+        </tr>
+    </table>
+</form>

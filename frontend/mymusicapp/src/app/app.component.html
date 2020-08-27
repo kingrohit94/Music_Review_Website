@@ -1,0 +1,29 @@
+<!-- app header, name and logo view html page-->
+<header>
+  <div class="navbar is-dark">
+    <div class = "navbar-item">
+        <a>
+          <img src ="assets/img/logo.png">
+        </a>
+    </div>
+  </div>
+    
+  <div class="container">
+    <a routerLink="/" class="logo">Music World</a>
+    <nav>
+      <ul>
+        
+        <a class="nav-item nav-link" (click)="logout()">Logout</a><br/>
+        
+      </ul>
+    </nav>
+  </div>
+
+  
+
+</header>
+
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
